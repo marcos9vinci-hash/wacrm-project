@@ -1,0 +1,11 @@
+tasks:
+  - init: |
+      mysqld --initialize-insecure --user=gitpod
+      mysqld &
+      mysql -u root -e "CREATE DATABASE wacrm_db;"
+      mysql -u root -e "CREATE USER 'wacrm_user'@'localhost' IDENTIFIED BY 'password';"
+      mysql -u root -e "GRANT ALL PRIVILEGES ON wacrm_db.* TO 'wacrm_user'@'localhost';"
+      mysql -u root wacrm_db < database/import.sql
+ports:
+  - port: 3306
+    onOpen: ignore
