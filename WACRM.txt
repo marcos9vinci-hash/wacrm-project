@@ -1,0 +1,18 @@
+Baixe aqui: https://drive.google.com/drive/folders/18s9wGW7zDdNyJNKveJp6Oo_BVsrKAbhV
+
+Vídeo tutorial: https://www.youtube.com/watch?v=Wg_23HLxdHc
+
+FrontEnd: https://crm.oneoftheprojects.com/
+
+PAINEL DO USUÁRIO: https://crm.oneoftheprojects.com/user
+
+Login do user: user@user.com
+
+Senha: password
+
+
+PAINEL DO ADMIN: https://crm.oneoftheprojects.com/admin
+
+User: admin@admin.com
+
+Senha: password
